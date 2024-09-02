@@ -1,0 +1,41 @@
+.card{
+    border: none !important;
+    width: 35%;
+    height: 100% !important; /* 70% height of the parent container */
+    padding: 20px;
+    margin-left: 5%;
+    background-color: white !important;
+}
+
+.con-body{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    margin-top: 5%;
+    width: 50%;
+    background-color: #122620;
+    padding: 20px;
+    border-radius: 5px;
+}
+.read{
+    padding: 10px 20px;
+    border: none;
+    background-color: aqua;
+}
+.mod{
+    color: white;
+}
+.btn1{
+    width: 120px;
+    height: 50px;
+    padding: 20px;
+}
+.videoPlayer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    width: 80%;
+}
